@@ -71,6 +71,9 @@ public class MainManager : MonoBehaviour
     public void GameOver()
     {
         m_GameOver = true;
+        // SAVE HIGH SCORE CODE HERE
+        // if Score > currentHighScore
+        // {save score AS high score}
         GameOverText.SetActive(true);
     }
 }
